@@ -1,1 +1,48 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: green;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  width: 19rem;
+  height: 28.25rem;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 1rem;
+}
+.card-data {
+  display: flex;
+  align-items: center;
+}
+#top {
+  width: 100%;
+  height: 20%;
+  font-size: 4rem;
+}
+#middle {
+  width: 100%;
+  height: 60%;
+  justify-content: center;
+  font-size: 5rem;
+}
+#bottom {
+  width: 100%;
+  height: 20%;
+  justify-content: flex-end;
+  font-size: 4rem;
+}
